@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aoc2023", "Aoc2023\Aoc2023.csproj", "{3D34CC98-4F93-4200-AB07-9BB0E4B4D950}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aoc2023.Tests", "Aoc2023.Tests\Aoc2023.Tests.csproj", "{B721944D-EB5E-482C-B29D-ABFCF6611E32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3D34CC98-4F93-4200-AB07-9BB0E4B4D950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D34CC98-4F93-4200-AB07-9BB0E4B4D950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D34CC98-4F93-4200-AB07-9BB0E4B4D950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B721944D-EB5E-482C-B29D-ABFCF6611E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B721944D-EB5E-482C-B29D-ABFCF6611E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B721944D-EB5E-482C-B29D-ABFCF6611E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B721944D-EB5E-482C-B29D-ABFCF6611E32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
