@@ -1,8 +1,15 @@
 ﻿using Aoc2023;
 
+const string _emptyLine = "----------------------------";
+
 // day01
-Day01 day01 = new();
-day01.Solve();
+//Day01 day01 = new();
+//day01.Solve();
+
+Console.WriteLine(_emptyLine);
+
+Day02 day02 = new();
+day02.Solve();
 
 // day02
 // day03

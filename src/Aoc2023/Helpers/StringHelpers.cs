@@ -1,4 +1,6 @@
-﻿namespace Aoc2023.Helpers;
+﻿using Aoc2023.Models;
+
+namespace Aoc2023.Helpers;
 
 internal static class StringHelpers
 {
@@ -13,4 +15,11 @@ internal static class StringHelpers
     {
         return input.Distinct().Count() == input.Length;
     }
+
+    public static Color StringToColor(string input) => input.ToLower() switch
+    {
+        "red" => Color.Red,
+        "green" => Color.Green,
+        _ => Color.Blue
+    };
 }
