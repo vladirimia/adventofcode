@@ -17,11 +17,15 @@
 //day03.Solve();
 
 // day04
-Day04 day04 = new();
-day04.Solve();
+//Day04 day04 = new();
+//day04.Solve();
 
 // day05
+
 // day06
+Day06 day06 = new();
+day06.Solve();
+
 // day07
 // day08
 // day09

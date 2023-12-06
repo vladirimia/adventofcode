@@ -1,8 +1,11 @@
 ﻿namespace Aoc2023.Models;
 
 public record Position(int Row, int Start, int End);
+
 public record Symbol(string Value, Position Position);
+
 public record Number(int Value, Position Position);
+
 public record CardAndNumbers(int CardId, List<int> WinningNumbers, List<int> MyNumbers)
 {
     public List<int> MatchingNumbers
@@ -26,3 +29,5 @@ public record CardAndNumbers(int CardId, List<int> WinningNumbers, List<int> MyN
         } 
     }
 }
+
+public record TimeAndDistance(long Milisecondes, long Milimeters);
