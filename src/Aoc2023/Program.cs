@@ -6,13 +6,16 @@ const string _emptyLine = "----------------------------";
 //Day01 day01 = new();
 //day01.Solve();
 
-Console.WriteLine(_emptyLine);
-
-Day02 day02 = new();
-day02.Solve();
+//Console.WriteLine(_emptyLine);
 
 // day02
+//Day02 day02 = new();
+//day02.Solve();
+
 // day03
+Day03 day03 = new();
+day03.Solve();
+
 // day04
 // day05
 // day06
