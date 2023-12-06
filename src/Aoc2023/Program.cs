@@ -1,6 +1,6 @@
 ﻿using Aoc2023;
 
-const string _emptyLine = "----------------------------";
+//const string _emptyLine = "----------------------------";
 
 // day01
 //Day01 day01 = new();
@@ -13,10 +13,13 @@ const string _emptyLine = "----------------------------";
 //day02.Solve();
 
 // day03
-Day03 day03 = new();
-day03.Solve();
+//Day03 day03 = new();
+//day03.Solve();
 
 // day04
+Day04 day04 = new();
+day04.Solve();
+
 // day05
 // day06
 // day07
