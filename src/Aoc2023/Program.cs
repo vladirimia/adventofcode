@@ -23,10 +23,13 @@
 // day05
 
 // day06
-Day06 day06 = new();
-day06.Solve();
+//Day06 day06 = new();
+//day06.Solve();
 
 // day07
+Day07 day07 = new();
+day07.Solve();
+
 // day08
 // day09
 // day10
