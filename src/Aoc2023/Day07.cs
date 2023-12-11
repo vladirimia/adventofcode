@@ -122,7 +122,7 @@ public class Day07 : ISolver
             var test = pokerHand.StringRepresentation.Replace('J', testChar);
             var newPokerHand = new PokerHand(test, pokerHand.Bet);
             var testType = GetPokerHandType(newPokerHand);
-            var newStrength = _pokerHandsStrength[testType]
+            var newStrength = _pokerHandsStrength[testType];
 
             if (newStrength > _pokerHandsStrength[newPokerHandType])
             {
