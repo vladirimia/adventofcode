@@ -35,19 +35,26 @@
 //day08.Solve();
 
 // day09
-Day09 day09 = new();
-day09.Solve();
+//Day09 day09 = new();
+//day09.Solve();
 
 // day10
 // day11
 // day12
 // day13
+
 // day14
+//Day14 day14 = new();
+//day14.Solve();
+
 // day15
 // day16
 // day17
 // day18
 // day19
+Day19 day19 = new Day19();
+day19.Solve();
+
 // day20
 // day21
 // day22
