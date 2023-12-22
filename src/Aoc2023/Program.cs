@@ -51,9 +51,12 @@
 // day16
 // day17
 // day18
+Day18 day18 = new();
+day18.Solve();
+
 // day19
-Day19 day19 = new Day19();
-day19.Solve();
+//Day19 day19 = new Day19();
+//day19.Solve();
 
 // day20
 // day21

@@ -123,20 +123,7 @@ public class Day19 : ISolver
         public MetalPartStatus Status { get; set; }
     }
 
-    record WorkflowRule(string Rule)
-    {
-        //public RuleStatus Status
-        //{
-        //    get
-        //    {
-        //        if (Rule.Contains('A')) return RuleStatus.Accepted;
-
-        //        if (Rule.Contains('R')) return RuleStatus.Rejected;
-
-        //        return
-        //    }
-        //}
-    }
+    record WorkflowRule(string Rule);
 
     class Workflow
     {
