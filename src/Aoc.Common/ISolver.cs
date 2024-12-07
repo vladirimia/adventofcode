@@ -1,4 +1,4 @@
-﻿namespace Aoc2023;
+﻿namespace Aoc.Common;
 
 public interface ISolver
 {
